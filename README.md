@@ -1,22 +1,22 @@
 # EazaLoginGds0553
-##Instalción 
+## Instalción 
 - Clonar el repositorio
 - -git Clone
 
-##Instalar los modulos 
+## Instalar los modulos 
 - Cambiarse al directorio
 - cd[nombre-proyecto]
 - Mediante npm instalar los Modulos
 - npm install
 
-##Levantar el servidor de Json-Server
+## Levantar el servidor de Json-Server
 - El fron-End lo verifica que sea valido.
 - json-server --watch db.json
 
-##Ejecutar el servidor 
+## Ejecutar el servidor 
 - ng server -o
 
-##Ingresa URL
+## Ingresa URL
 - http://localhost:4200
 
 
