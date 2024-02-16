@@ -1,4 +1,24 @@
 # EazaLoginGds0553
+##Instalción 
+- Clonar el repositorio
+- -git Clone
+
+##Instalar los modulos 
+- Cambiarse al directorio
+- cd[nombre-proyecto]
+- Mediante npm instalar los Modulos
+- npm install
+
+##Levantar el servidor de Json-Server
+- El fron-End lo verifica que sea valido.
+- json-server --watch db.json
+
+##Ejecutar el servidor 
+- ng server -o
+
+##Ingresa URL
+- http://localhost:4200
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
@@ -25,3 +45,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
