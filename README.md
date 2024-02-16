@@ -1,7 +1,7 @@
 # EazaLoginGds0553
 ## Instalción 
 - Clonar el repositorio
-- -git Clone
+- -git clone https://github.com/Antoni061/Angular2-Review-GDS0553.git
 
 ## Instalar los modulos 
 - Cambiarse al directorio
