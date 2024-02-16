@@ -5,6 +5,7 @@ import { User } from '../../interfaces/user';
 import { response } from 'express';
 import { error } from 'console';
 import { MessageService } from 'primeng/api';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -21,7 +22,8 @@ export class RegisterComponent {
 
   constructor(private fb:FormBuilder,
     private authService:AuthService,
-    private messageService:MessageService
+    private messageService:MessageService,
+    private router:Router
     ){
 
   }
@@ -55,8 +57,14 @@ export class RegisterComponent {
           summary:'Registro Exitoso',
           detail:'El usuario ha sida registrado con Exito'
         });
+        this.router.navigate(['login'])
       },
       error=>{
+        this.messageService.add({
+          severity:'error',
+          summary:'Error al insertar el usuario',
+          detail:'Hubo un error al Agregar Usuario consulte al Administrador'
+        });
 
       }
     )

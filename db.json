@@ -5,6 +5,30 @@
       "fullname": "eduardo",
       "email": "eduardo@gmail.com",
       "password": "eduardo12"
+    },
+    {
+      "id": "c3ad",
+      "fullname": "Gabriel",
+      "email": "barron@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "3e3c",
+      "fullname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "2e15",
+      "fullname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "bad5",
+      "fullname": "eduardo",
+      "email": "eduardo@gmail.com",
+      "password": "12345"
     }
   ]
 }
